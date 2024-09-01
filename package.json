@@ -1,5 +1,5 @@
 {
-  "name": "oauth-server-project",
+  "name": "auth-server-test",
   "version": "1.0.0",
   "description": "A simple OAuth server",
   "main": "dist/server.js",
