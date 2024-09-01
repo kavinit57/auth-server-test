@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: oauth-server
+    env: node
+    buildCommand: npm run build
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: CLIENT_ID
+        value: c1a2f3b4e5d6a7b8c9d0e1f2a3b4c5d6
+      - key: CLIENT_SECRET
+        value: f1e2d3c4b5a6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2
